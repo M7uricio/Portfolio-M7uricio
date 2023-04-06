@@ -47,19 +47,20 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-              I{" "}
+              A little about{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                me
               </Text>{" "}
-              creating and{" "}
+              and my{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
+                development
+              </Text>
+              .
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Meet here in this environment, created especially for you, all my
+              projects and technologies. All about a developer with a lot of
+              grit and who is always looking to improve in what he does.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
